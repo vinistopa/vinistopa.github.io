@@ -16,12 +16,17 @@
             background-color: #ECEBF3;
         }
 
-        h1 {
+        .meu-nome {
             font-family: 'Albert Sans', sans-serif;
             font-weight: 500;
         }
 
-        p, ul {
+        ul {
+            font-size: 20px;
+            line-height: 30px; 
+        }
+
+        .descricao, ul {
             font-family: 'Quicksand', sans-serif;
         }
 
@@ -32,16 +37,31 @@
         em {
             color: #c20114ff;
         }
+
+        .html {
+            color: rgb(102, 51, 51);
+            font-size: 15px;
+        }
+
+        .css {
+            color: rgb(82, 68, 68);
+            font-size: 25px;
+        }
+
+        .english {
+            color: rgb(99, 99, 99);
+            font-size: 35px;
+        }
     </style>
 </head>
 <body>
-    <h1>Vinicius Stopa de Souza</h1>
+    <h1 class="meu-nome">Vinicius Stopa de Souza</h1>
     <img width="300px" src="img/eu.jpg" alt="Foto de Vinicius">
-    <p>Brasil | Lages/SC</p>
+    <p class="descricao">Brasil | Lages/SC</p>
     <ul>
-        <li><strong>HTML</strong> básico</li>
-        <li><strong>CSS</strong> básico</li>
-        <li>Inglês <em>Avançado</em></li>
+        <li class="html"><strong>HTML</strong> básico</li>
+        <li class="css"><strong>CSS</strong> básico</li>
+        <li class="english">Inglês <em>Avançado</em></li>
     </ul>
     <a href="https://www.w3schools.com/" target="_blank">W3Schools</a>
 </body>
